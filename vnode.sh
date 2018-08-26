@@ -42,7 +42,7 @@ ventual-cli stop > /dev/null 2>&1
 cd /home/
 wget https://github.com/ventual-core/vntl/releases/download/1.0.1/vnode.zip -O vnode.zip
 unzip vnode.zip
-mv ventual* /usr/local/bin/ventuald
+mv ventual* /usr/local/bin/
 chmod +x /usr/local/bin/ventual*
 rm -rf vnode.zip
 fi
